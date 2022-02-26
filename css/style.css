@@ -1,0 +1,44 @@
+body {
+  background-image: url(./../img/background-img.png);
+}
+
+/*NAVBAR*/
+
+.menu {
+  background-color: #f2b3c4;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.hover li a:hover {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  border: px solid black !important;
+}
+
+#cardMain {
+  background-color: #f2b3c4d8;
+}
+
+/* PRODUCTOS */
+
+@media (min-width: 768px) {
+  #centrar-img {
+    position: relative;
+  }
+
+  #img-product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+#color-fondo {
+  background-color: #9196f2d8;
+}

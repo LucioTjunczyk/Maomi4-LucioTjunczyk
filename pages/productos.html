@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maomi</title>
+
+    <!--CSS -->
+
+    <link rel="stylesheet" href="./../css/style.css" />
+
+    <!--CSS only bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--FONTAWESOME-->
+    <script
+      src="https://kit.fontawesome.com/e80574ca7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./../img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+
+    <header>
+      <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img
+              src="./../img/logoHeader.png"
+              alt="logoHeader"
+              height="100px"
+              width="150px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto hover">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html"
+                  >Nuestros productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sobre nosotros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Quienes somos</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Donde encontrarnos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Sumate al equipo</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--MAIN PRODUCTOS-->
+    <main>
+      <section>
+        <!--CARD DUMPLINGS-->
+
+        <div class="card my-5 mx-5" id="color-fondo">
+          <div class="row">
+            <div class="col-md p-5">
+              <div class="card-body">
+                <h5
+                  class="card-title fs-2 text-decoration-underline text-center"
+                >
+                  DUMPLINGS
+                </h5>
+
+                <ul class="list-group mt-5">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Tradicional de cerdo</div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, reiciendis.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$600</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Pollo asiático</div>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempore, nulla?
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$600</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Hongos (vegano)</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$700</span>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Langostinos</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$800 </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md" id="centrar-img">
+              <img
+                src="./../img/product-dump.png"
+                class="img-fluid"
+                id="img-product"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--CARD BAOS-->
+
+        <div class="card my-5 mx-5" id="color-fondo">
+          <div class="row">
+            <div class="col-md" id="centrar-img">
+              <img
+                src="./../img/product-bao.png"
+                class="img-fluid"
+                id="img-product"
+                alt="..."
+              />
+            </div>
+            <div class="col-md p-5">
+              <div class="card-body">
+                <h5
+                  class="card-title fs-2 text-decoration-underline text-center"
+                >
+                  BAO-ZI
+                </h5>
+
+                <ul class="list-group mt-5">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Tradicional de cerdo</div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, reiciendis.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$700</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Pollo asiático</div>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempore, nulla?
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$700</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Hongos (vegano)</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$800</span>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Pescado</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$800 </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD ARROLLADITOS-->
+
+        <div class="card my-5 mx-5" id="color-fondo">
+          <div class="row">
+            <div class="col-md p-5">
+              <div class="card-body">
+                <h5
+                  class="card-title fs-2 text-decoration-underline text-center"
+                >
+                  ARROLLADITOS
+                </h5>
+
+                <ul class="list-group mt-5">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Tradicional de cerdo</div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa, reiciendis.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$400</span>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Hongos (vegano)</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$500</span>
+                  </li>
+
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Verduras salteadas (veggie)</div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Libero, sint.
+                    </div>
+                    <span class="badge bg-primary rounded-pill">$400 </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md" id="centrar-img">
+              <img
+                src="./../img/product-arro.png"
+                class="img-fluid"
+                id="img-product"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer pt-3 bg-dark">
+      <div class="container mb-0">
+        <div class="row d-flex">
+          <div class="col">
+            <h4 class="text-white bg-dark">¡Seguinos en las redes!</h4>
+          </div>
+
+          <div class="col-auto m-2">
+            <a href="https://es-la.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-square fa-3x"></i>
+            </a>
+          </div>
+
+          <div class="col-auto m-2">
+            <a href="https://www.instagram.com/?hl=es" target="_blank">
+              <i class="fab fa-instagram-square fa-3x"></i>
+            </a>
+          </div>
+
+          <div class="col-auto m-2">
+            <a href="https://www.tiktok.com/es/" target="_blank">
+              <i class="fab fa-tiktok fa-3x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copy">
+                &copy; Copyright 2022 <a href="#">Maomi</a> | Creada por
+                <a href="https://github.com/LucioTjunczyk" target="_blank"
+                  >Lucio Tjunczyk</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--JS bundle with popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
